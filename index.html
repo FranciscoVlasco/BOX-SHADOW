@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+      <h1>BOX SHADOW SCRIPT</h1>
+    </section>
+    <div class="content">
+      <div class="box">
+        <div class="box-little"></div>
+        <div class="box-date">
+          <p>Color de la caja</p>
+          <input type="color" class="color-box">
+          <p>Ancho de la caja</p>
+          <input type="range" class="bHorizontal" min="0" max="300">
+          <p>Alto de la caja</p>
+          <input type="range" class="bVertical" min="0" max="300">
+        </div>
+      </div>
+      <div class="date">
+        <div class="values">
+          <p>Horizontal offset</p>
+          <input type="range" id="bx" class="horizontal" min="-100" max="100">
+          <p>Vertical offset</p>
+          <input type="range" id="bx" class="vertical" min="-100" max="100">
+          <p>Blur Radius</p>
+          <input type="range" id="bx" class="blur" min="0" max="200">
+          <p>Spread radius</p>
+          <input type="range" id="bx" class="spread" min="-50" max="100">
+          <p>Color</p>
+          <input type="color" id="bx" class="color-shadow">
+        </div>
+        <textarea class="text" rows="10">box-shadow: 0px 0px 0px 0px #ffffff;</textarea>
+      </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
