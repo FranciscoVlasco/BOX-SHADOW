@@ -11,6 +11,7 @@ html {
 body{
   background-color: #85cfe4;
   font-family: 'Alkalami', serif;
+  margin: 0;
 }
 
 section {
@@ -21,7 +22,7 @@ section {
 @media (max-width: 480px){
   section {
     width: 480px;
-    margin-left: 22%;
+    margin-left: 0%;
   }
 }
 .content{
@@ -38,6 +39,7 @@ section {
 
 @media (max-width: 480px){
   .content{
+    width: 450px;
     height: 130vh;
     flex-direction: column;
     justify-content: flex-start;
